@@ -26,20 +26,8 @@ a:hover { text-decoration: underline; }
 }
 
 .intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 112px;
-  gap: 28px;
-  align-items: start;
   padding-bottom: 34px;
   border-bottom: 1px solid var(--rule);
-}
-
-.profile-photo {
-  width: 112px;
-  height: 138px;
-  object-fit: cover;
-  object-position: 61% 40%;
-  border: 1px solid var(--rule);
 }
 
 h1 { margin: 0 0 14px; font-size: 34px; line-height: 1.15; }
@@ -71,8 +59,6 @@ footer { margin-top: 48px; color: #777; font-size: 13px; }
 @media (max-width: 560px) {
   .site { width: min(100% - 32px, 780px); padding-top: 30px; }
   h1 { font-size: 30px; }
-  .intro { grid-template-columns: minmax(0, 1fr) 88px; gap: 16px; }
-  .profile-photo { width: 88px; height: 108px; }
   .entry-heading { display: block; }
   .entry-heading span { display: block; margin-top: 2px; }
 }
