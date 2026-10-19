@@ -39,7 +39,7 @@ a:hover { text-decoration: underline; }
 .profile-photo {
   display: block;
   flex: 0 0 auto;
-  width: 180px;
+  width: 220px;
   height: auto;
 }
 
@@ -72,7 +72,7 @@ footer { margin-top: 48px; color: #777; font-size: 13px; }
 @media (max-width: 560px) {
   .site { width: min(100% - 32px, 780px); padding-top: 30px; }
   .intro { flex-direction: column-reverse; gap: 24px; }
-  .profile-photo { width: 150px; }
+  .profile-photo { width: 180px; }
   h1 { font-size: 30px; }
   .entry-heading { display: block; }
   .entry-heading span { display: block; margin-top: 2px; }
